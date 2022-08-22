@@ -1,0 +1,25 @@
+body {
+  font-family: monospace;
+}
+
+.game {
+  display: inline-block;
+  border: 2px solid #f8aa4b;
+}
+
+.game-row {
+  display: flex;
+}
+
+.square {
+  background-color: #ffcb00;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #f8aa4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #072448;
+  font-weight: bold;
+  font-size: 18px;
+}

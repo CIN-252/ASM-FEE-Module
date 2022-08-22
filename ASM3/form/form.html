@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form action="" method="post">
+    <div class="heading">FA Survey Form</div>
+    <div class="text"><em>Thank you for talking the time to help us improve the flatform</em></div>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required autofocus>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="text" name="age" id="age" class="form-control" placeholder="Age">
+    </div>
+    <div class="form-group">
+      <label for="role">Which option best describes your current role?</label>
+      <select name="role" id="role">
+        <option value="no-role">Select current role</option>
+        <option value="manager">Manager</option>
+        <option value="staff">Staff</option>
+      </select>
+    </div>
+    <div class="input-radio">
+      <label for="recommend">Would you recommend FA to a friend?</label><br>
+      <input type="radio" name="recommend" id="definitely" value="definitely">
+      <label for="definitely">Definitely</label><br>
+      <input type="radio" name="recommend" id="maybe" value="maybe" checked>
+      <label for="maybe">Maybe</label><br>
+      <input type="radio" name="recommend" id="notsure" value="notsure">
+      <label for="notsure">Not sure</label><br>
+    </div>
+    <div class="input-checkbox">
+      <label for="improved">What would you like to see improved?</label><br>
+      <input type="checkbox" name="improved1" id="improved1" value="front-end">
+      <label for="improved1">Front-end Projects</label><br>
+      <input type="checkbox" name="improved2" id="improved2" value="back-end">
+      <label for="improved2">Back-end Projects</label><br>
+      <input type="checkbox" name="improved3" id="improved3" value="ai">
+      <label for="improved3">AI</label><br>
+      <input type="checkbox" name="improved4" id="improved4" value="learning">
+      <label for="improved4">Machine Learning</label><br>
+      <input type="checkbox" name="improved5" id="improved5" value="soft">
+      <label for="improved5">Soft Skills</label><br>
+      <input type="checkbox" name="improved6" id="improved6" value="presentation">
+      <label for="improved6">Presentation Skills</label><br>
+    </div>
+    <div class="input-textarea">
+      <label for="cmt">Any comments or suggestions?</label>
+      <textarea name="cmt" id="cmt" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+    </div>
+    <div class="submit-button">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+</html>
+
+  

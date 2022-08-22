@@ -1,0 +1,56 @@
+/* 
+GOLD: rgb(172, 140, 71)
+WHITE: rgb(226, 226, 226)
+GREY: rgb(128,128,128)
+BLACK: rgb(15,15,15)
+rgba(15,15,15, 0.74) 
+*/
+
+@import url(font.css);
+@import url(menu.css);
+
+/* body */
+body {
+  color: rgb(226, 226, 226);
+  background: #0f0f0f;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding: 2% 6% 6% 6%;
+
+  margin: 0;
+
+  font-size: 19px;
+  font-family: cronos-pro;
+}
+
+/* container */
+.container {
+  background: rgba(15,15,15, 0.74);
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+/* header */
+header {}
+header a {}
+
+header a img {
+  margin: auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+/* footer */
+footer {
+  padding: 10px 0;
+}
+
+footer h4 {
+  text-transform: uppercase;
+}

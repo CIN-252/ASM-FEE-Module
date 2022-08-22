@@ -1,0 +1,58 @@
+/* nav */
+header {}
+header nav {}
+
+header nav ul {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+
+  border-top: rgb(36,36,36) 1px solid;
+  border-bottom: rgb(36,36,36) 1px solid;
+}
+
+header nav ul li {
+  padding: 15px 100px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: 0.5s;
+}
+
+header nav ul li a:link {
+    color: rgb(172,140,71);
+}
+
+header nav ul li a:visited {
+  color: rgb(106,106,106);
+}
+
+header nav ul li a:hover {
+  background-color: rgba(180, 180, 180, 0.301);
+  color: white;
+}
+
+header nav ul li a:active {
+  color: rgb(172,140,71);
+}
+
+/* a:link {
+  color: rgb(172,140,71);
+}
+
+a:visited {
+  color: rgb(100, 81, 41);
+}
+
+a:hover {
+  color: rgb(224, 182, 90);
+}
+
+a:active {
+  color: rgb(252, 217, 142);
+} */

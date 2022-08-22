@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Form 2</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset style="width: 600px;">
+            <legend>Application form</legend>
+                <label for="af-name">Full Name</label>
+                <input type="text" id="af-name" name="af-name" value="Aryan" autofocus><br>
+                <label for="af-email">Email</label>
+                <input type="email" name="af-email" id="af-email" value="aryan@domain.com"><br>
+                <label for="af-gender">Gender</label>
+                <input type="radio" name="af-gender" id="af-gender" value="Male">
+                <label for="af-gender">Male</label>
+                <input type="radio" name="af-gender" id="af-gender" value="Female">
+                <label for="af-gender">Female</label><br>
+                <label for="af-nation">Nationality</label>
+                <select name="af-nation" id="af-nation">
+                    <option value="indian">Indian</option>
+                    <option value="british">British</option>
+                    <option value="canadian">Canadian</option>
+                    <option value="spanish ">Spanish </option>
+                    <option value="italian ">Italian </option>
+                </select><br>
+                <label for="af-skill">Skills</label>
+                <input type="checkbox" name="af-skill" id="af-skill" value="Asp.Net">
+                <label for="af-skill">Asp.Net</label>
+                <input type="checkbox" name="af-skill" id="af-skill" value="jQuery">
+                <label for="af-skill">jQuery</label>
+                <input type="checkbox" name="af-skill" id="af-skill" value="MVC">
+                <label for="af-skill">MVC</label>
+                <input type="checkbox" name="af-skill" id="af-skill" value="Sql Server">
+                <label for="af-skill">Sql Server</label><br>
+                <label for="af-paf">Post applying for</label>
+                <input type="radio" name="af-paf" id="af-paf" value="Trainee">
+                <label for="af-paf">Trainee</label>
+                <input type="radio" name="af-paf" id="af-paf" value="Software Engineer">
+                <label for="af-paf">Software Engineer</label>
+                <input type="radio" name="af-paf" id="af-paf" value="Team Leader">
+                <label for="af-paf">Team Leader</label>
+                <input type="radio" name="af-paf" id="af-paf" value="Project Manager">
+                <label for="af-paf">Project Manager</label><br>
+                <label for="af-img">Upload Resume: </label>
+                <input type="file" name="af-img" id="af-img" accept="image/*"><br>
+                <label for="af-pyr">Paste your resume</label>
+                <textarea name="af-pyr" id="af-pyr" cols="30" rows="10">Sample resume text...</textarea><br>
+                <input type="checkbox" name="af-agree-mail" id="af-agree-mail">
+                <label for="af-agree-mail">Notify me the status via Email<label><br>
+                <input type="radio" name="af-agree-terms" id="af-agree-terms">
+                <label for="af-agree-terms">I agree to terms & conditions</label><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

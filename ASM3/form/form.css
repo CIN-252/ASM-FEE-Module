@@ -1,0 +1,51 @@
+body {
+  background: url(images/background.png);
+  font-family: Segoe UI;
+}
+
+form{
+  width: 600px;
+  margin: auto;
+  display: block;
+  padding: 20px;
+  width: 400px;
+
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  padding-left: 5px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.form-group input.form-control {
+  width: 100%;
+}
+
+.form-group select {
+  padding: 5px;
+  display: block;
+  width: 100%;
+}

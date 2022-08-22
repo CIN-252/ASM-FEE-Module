@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in Form</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1>Responsive</h1>
+      <h3>Sign-up</h3>
+    </div>
+    <div class="container">
+      <form action="" method="POST">
+        <h1>Create an account</h1>
+        <p>Already have an account <a href="#">Sign-in</a></p>
+        <div class="user-details">
+          <div class="input-box">
+            <label for="f-email">Email address</label>
+            <input type="email" name="f-email" id="f-email" required />
+          </div>
+          <div class="name-group">
+            <div class="input-box">
+              <label for="f-fname">First Name</label>
+              <input type="text" name="f-fname" id="f-fname" required />
+            </div>
+            <div class="input-box">
+              <label for="f-lname">Last name</label>
+              <input type="text" name="f-lname" id="f-lname" required />
+            </div>
+          </div>
+          <div class="input-box">
+            <label for="f-pass">Password</label>
+            <input type="password" name="f-pass" id="f-pass" />
+          </div>
+
+          <fieldset class="date-group">
+            <legend>Day Of Birth</legend>
+            <div class="input-box">
+              <label for="f-day">Day</label>
+              <select name="f-day" id="f-day">
+                <option value="0"></option>
+              </select>
+            </div>
+            <div class="input-box">
+              <label for="f-month">Month</label>
+              <select name="f-month" id="f-month">
+                <option value="0"></option>
+              </select>
+            </div>
+            <div class="input-box">
+              <label for="f-year">Year</label>
+              <select name="f-year" id="f-year">
+                <option value="0"></option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+        <p>
+          By clicking Create account, I agree that I have read and accepted the
+          <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>
+        </p>
+        <div class="button">
+          <input type="submit" value="Create account" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

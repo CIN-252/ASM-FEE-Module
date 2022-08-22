@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Form 1</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname">Username: </label>
+        <input type="text" name="uname" id="uname"><br>
+
+        <label for="uname">Password: </label>
+        <input type="password" name="pass" id="pass"><br>
+
+        <label for="uname">City of Employment: </label>
+        <input type="text" name="coe" id="coe"><br>
+
+        <label for="ws">Web server: </label>
+        <select name="ws" id="ws">
+            <option value="sv">- Choose a server -</option>
+            <option value="sv1">Server1</option>
+            <option value="sv2">Server2</option>
+            <option value="sv3">Server3</option>
+            <option value="sv4">Server4</option>
+        </select><br>
+
+        <label for="syr">Please specify your role: </label><br>
+        <input type="radio" name="admin" id="syr" value="Admin">
+        <label for="syr">Admin </label><br>
+        <input type="radio" name="engineer" id="syr" value="Engineer">
+        <label for="syr">Engineer </label><br>
+        <input type="radio" name="manager" id="syr" value="Manager">
+        <label for="syr">Manager </label><br>
+        <input type="radio" name="guest" id="syr" value="Guest">
+        <label for="syr">Guest </label><br>
+
+        <label for="sso">Single Sign-on to the following: </label><br>
+        <input type="checkbox" id="mail" name="mail" value="Mail">
+        <label for="mail"> Mail</label><br>
+        <input type="checkbox" id="payroll" name="payroll" value="Payroll">   
+        <label for="payroll"> Payroll</label><br>
+        <input type="checkbox" id="self-service" name="self-service" value="Self-service">
+        <label for="self-service"> Self-service</label><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+</body>
+</html>

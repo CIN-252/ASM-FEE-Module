@@ -1,0 +1,50 @@
+/* main */
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main article {}
+
+main article h1 {
+  color: rgb(172, 140, 71);
+}
+
+/* aside */
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside article.art--1, article.art--2, article.art--3 {
+  width: 32%;
+}
+
+aside article h3 {
+  border-bottom: rgb(128,128,128) solid 1px;
+}
+
+/* button */
+.button {
+  background-color: rgb(172,140,71);
+  border-radius: 8px;
+
+  transition: 0.5s;
+}
+
+.button a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 10px 0;
+  display: block;
+}
+
+.button:hover {
+  background-color: rgb(119, 97, 48);
+  border-radius: 8px;
+}
+

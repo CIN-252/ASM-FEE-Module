@@ -1,0 +1,1 @@
+Thêm nhanh vào form chức năng: Khi ấn submit sẽ show ra thông tin input của form

@@ -1,0 +1,42 @@
+/* main */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* h1 */
+main article h1 {
+  color: rgb(172, 140, 71);
+}
+
+/* hr */
+hr {
+  width: 350px;
+  margin-top: 0;
+  border-color: rgb(128,128,128);
+}
+
+/* p */
+main article p {
+  margin-bottom: 20px;
+}
+
+/* img */
+main article ._4img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main article ._4img a img {
+  width: 340px;
+  margin: 5px 0;
+}
+
+/* menu */
+main article ul {
+  list-style-type: none;
+}
+main article ul li {
+  line-height: 1.5;
+}
